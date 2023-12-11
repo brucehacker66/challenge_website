@@ -75,14 +75,91 @@
             Accurate segmentation of tools in robot-assisted surgery serves as a foundational aspect of machine perception, facilitating various downstream tasks, including augmented reality feedback. While existing feed-forward network-based methods exhibit excellent performance in the absence of corruption in test cases, the susceptibility to even minor corruptions can significantly impair the model's efficacy due to the inherent overfitting nature of such networks. This vulnerability becomes particularly consequential in surgical applications, where high-stakes decisions are commonplace. Prior efforts, such as benchmarking methods on Imagenet-C, have explored the robustness of models by introducing artificial noise to test images. The CaRTS approach introduces a novel pipeline designed to achieve robust segmentation of robot tools, validated against realistic corruptions. In our contribution, we expand the dataset to address the challenge of robust robot tool segmentation against non-adversarial factors. This expansion aims to encourage algorithms to exhibit resilience to unforeseen yet plausible complications that may arise during surgery, such as smoke, overbleeding, and artificial noise akin to ImageNet-C corruption. Successfully attaining non-adversarial robustness in this benchmark is paramount for the translation of research algorithms into real-world applications. It ensures that these algorithms can navigate and perform effectively in the face of unexpected but reasonable complexities encountered during surgical procedures.
           </p>
           <p><strong>Keywords: Non-adversarial Robustness, Surgical Tool Segmentation, Robotics Surgery, Minimally Invasive Surgery, EndoVis</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
 
-        <!-- Github link -->
-        <section class="section hero is-light">
-          <div class="container is-max-desktop">
-            <div class="columns is-centered has-text-centered">
-              <div class="column is-four-fifths">
-                <span class="link-block">
-                  <a href="https://github.com/arcadelab/SegStrongC" target="_blank"
+<!-- Participation Policy -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Participation Policy</h2>
+      <ul>
+        <li><strong>Allowed User Interaction:</strong> Any method are allowed; We will divide method into two categories, one with external data, one without external data. We give rank within categories.</li>
+        <li><strong>Usage of Training Data:</strong> We will provide training data on certain domains. External data are allowed but are required to be reported for dividing category.</li>
+        <li><strong>Participation Policy for Members of The Organizers' Institutes:</strong> restriction: members with prior access to the data are not allowed to participate. Collaborators within the last two years, even without access, are not considered getting reward.</li>
+        <li><strong>Award Policy:</strong> We will name two winners for both categories. Certificates. We are actively working to finding sponsors for prizes.</li>
+        <li><strong>Result of Announcement:</strong> Participants need to agree with the publication of their methods and results. We will make all methods that officially participated.</li>
+        <li><strong>Publication Policy:</strong> Participants need to agree with the publication of their methods and results. We will make all methods that officially participated.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End participation policy -->
+
+<!-- Submission Method -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Submission Method</h2>
+      <ul>
+        <li><strong>Result Submission:</strong> We'll use docker container for the result submission and evaluation. Submission instructions will be provided in the evaluation code. The results will be sent to the participate team via email.</li>
+        <li><strong>Evaluate Algorithms before Submitting:</strong> We will provide validation set on one domain and the test set will remain unpublished until the end of the challenge. </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End submission method -->
+
+
+<!-- Challenge Schedule -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Challenge Schedule</h2>
+      <ul>
+        <li><strong>Release Date of the Training Cases and Validation:</strong> 1st May, 2023 </li>
+        <li><strong>New Registrations Deadline:</strong> 30th August </li>
+        <li><strong>Submission deadline:</strong> 30th August </li>
+        <li><strong>Methodology Reports Due: </strong>  27th September, 2023 </li>
+        <li><strong>Winners announced: </strong>  On challenge day at MICCAI 2024 </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End Challenge Schedule -->
+
+<!-- Data Usage Agreement -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Data Usage Agreement</h2>
+      <ul>
+        <li> C BY-NC-ND; We will make a larger version including xx a CC BY </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- Data Usage Agreement -->
+
+<!-- Code Availability -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Code Availability</h2>
+      <ul>
+        <li><strong>Accessibility of the Participating Teams' Code: </strong> We will not making it available and are not requirement for teams </li> </li>
+        <li><strong>We provided the evaluation code for the validation set: </strong></li>
+      <ul>    
+      <!-- Github link -->
+      <section class="section hero is-light">
+        <div class="container is-max-desktop">
+          <div class="columns">
+              <span class="link-block">
+                <a href="https://github.com/arcadelab/SegStrongC" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="fab fa-github"></i>
@@ -93,14 +170,22 @@
             </div>
           </div>
         </div>
-        </section>
-        </div>
-      </div>
+      </section>
+</section>
+<!-- Code Availability -->
+
+<!-- Assessment Aims -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Assessment Aims</h2>
+      <ul>
+        <li> Find robot tool segmentation for stereo images and reduce the influence of the domain gap between the training data and test data. </li>
+      </ul>
     </div>
   </div>
 </section>
-<!-- End paper abstract -->
-
+<!-- End Assessment Aims -->
 
 <!-- Image carousel -->
 <section class="hero is-small">
@@ -148,45 +233,64 @@
 </section>
 <!-- End image carousel -->
 
-
-
-
-<!-- Participation Policy -->
+<!-- Data Sources -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3 has-text-centered">Participation Policy</h2>
+      <h2 class="title is-3 has-text-centered">Data Sources</h2>
       <ul>
-        <li><strong>Allowed User Interaction:</strong> Any method are allowed; We will divide method into two categories, one with external data, one without external data. We give rank within categories.</li>
-        <li><strong>Usage of Training Data:</strong> We will provide training data on certain domains. External data are allowed but are required to be reported for dividing category.</li>
-        <li><strong>Participation Policy for Members of The Organizers' Institutes:</strong> restriction: members with prior access to the data are not allowed to participate. Collaborators within the last two years, even without access, are not considered getting reward.</li>
-        <li><strong>Award Policy:</strong> We will name two winners for both categories. Certificates. We are actively working to finding sponsors for prizes.</li>
-        <li><strong>Result of Announcement:</strong> Participants need to agree with the publication of their methods and results. We will make all methods that officially participated.</li>
-        <li><strong>Publication Policy:</strong> Participants need to agree with the publication of their methods and results. We will make all methods that officially participated.</li>
+        <li><strong>Devices:</strong> Images are collected by endoscopic camera manufactured by SCHÖLLY along with image process unit manufactured by Ikegami </li>
+        <li><strong>Data Acquisition:</strong> After set up the dVRK and camera, we first manipulate the Robot to generate a trajectory in free space and record the kinematic </li>
+        <li><strong>Institute where data is acquired:</strong> The data is acquired in the robotorium of LCSR, Johns Hopkins University. The platform for collecting dataset is the da vinci research kit </li>
+        <li><strong>Characteristics of the subjects: </strong>  The data are acquired by surgical robotics expert who are familiar with operating da Vinci robot via dVRK. The data is not collected during real surgery </li>
       </ul>
     </div>
   </div>
 </section>
-<!-- End participation policy -->
+<!-- Data Sources -->
 
-<!-- Submission Method -->
+<!-- Training and test case characteristics -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3 has-text-centered">Submission Method</h2>
+      <h2 class="title is-3 has-text-centered">Training and Test Case Characteristics</h2>
       <ul>
-        <li><strong>Result Submission:</strong> We'll use docker container for the result submission and evaluation. Submission instructions will be provided in the evaluation code. The results will be sent to the participate team via email.</li>
-        <li><strong>Evaluate Algorithms before Submitting:</strong> We will provide validation set on one domain and the test set will remain unpublished until the end of the challenge. </li>
+        <li><strong>Training and test cases both represent a RGB image with da vinci robot and tissue background. Training and test cases have annotation masks for robot tool.</strong></li>
+        <li><strong>Total Number of Training:</strong> 11920 cases for training, 3600 cases for validation and 9000 cases for testing </li>
+        <li><strong>Reason for Choosing training, validation and test cases: </strong>We collect 17 sequences from 5 robot and camera configurations, We use three sequences from one configuration as test set, three sequences from another one configuration as validation set and all other sequence from other configuration as training set.  All sequences have 300 images for each domain collected at frame rate 10 fps except for two sequences that contains 100 and 180 images.  We provide two domains for the training and validation set and  retain 5 domains for test set: </li>
+        <li><strong>Important Characteristics: </strong> We provide 2 domains - regular domain and background change domain for training and validation set. We will test on all five domains - regular, background change, low brightness, blood, and smoke domain. </li>
       </ul>
     </div>
   </div>
 </section>
-<!-- End submission method -->
+<!-- End Training and test case characteristics -->
 
+<!-- Metrics -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Metrics</h2>
+      <ul>
+        <li><strong>Mean Dice Similarity Coefficient (DSC) for robot tool for multiple corruptions - low brightness, smoke and blood.</strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- Metrics -->
 
-
-
-
+<!-- Ranking Methods -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Ranking Methods</h2>
+      <ul>
+        <li><strong>Performance Rank:</strong> We rank algorithms with total points summed up over 4 test domains - ImageNet-C corruption, bleeding, smoke, and low brightness. Points are given by the rank for each test domain -  rank from 1 to 5 get points 5 - 1. Rank for each domain is based on the segmentation metric -  DICE  Score. </li>
+        <li><strong>Submission with Missing Results: </strong>e treat the score of the missing results as zero. </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End Training and test case characteristics -->
 
 <!-- Paper poster -->
 <section class="hero is-small is-light">
@@ -220,9 +324,7 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            
           </p>
 
         </div>
