@@ -57,52 +57,6 @@
             <div class="is-size-5 publication-authors">
               <span class="author-block">ARCADE Lab, Johns Hopkins University</span>
             </div>  
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/abs/2203.09475" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-            </div>
           </div>
         </div>
       </div>
@@ -121,6 +75,25 @@
             Accurate segmentation of tools in robot-assisted surgery serves as a foundational aspect of machine perception, facilitating various downstream tasks, including augmented reality feedback. While existing feed-forward network-based methods exhibit excellent performance in the absence of corruption in test cases, the susceptibility to even minor corruptions can significantly impair the model's efficacy due to the inherent overfitting nature of such networks. This vulnerability becomes particularly consequential in surgical applications, where high-stakes decisions are commonplace. Prior efforts, such as benchmarking methods on Imagenet-C, have explored the robustness of models by introducing artificial noise to test images. The CaRTS approach introduces a novel pipeline designed to achieve robust segmentation of robot tools, validated against realistic corruptions. In our contribution, we expand the dataset to address the challenge of robust robot tool segmentation against non-adversarial factors. This expansion aims to encourage algorithms to exhibit resilience to unforeseen yet plausible complications that may arise during surgery, such as smoke, overbleeding, and artificial noise akin to ImageNet-C corruption. Successfully attaining non-adversarial robustness in this benchmark is paramount for the translation of research algorithms into real-world applications. It ensures that these algorithms can navigate and perform effectively in the face of unexpected but reasonable complexities encountered during surgical procedures.
           </p>
           <p><strong>Keywords: Non-adversarial Robustness, Surgical Tool Segmentation, Robotics Surgery, Minimally Invasive Surgery, EndoVis</strong></p>
+
+        <!-- Github link -->
+        <section class="section hero is-light">
+          <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+              <div class="column is-four-fifths">
+                <span class="link-block">
+                  <a href="https://github.com/arcadelab/SegStrongC" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        </section>
         </div>
       </div>
     </div>
@@ -178,59 +151,37 @@
 
 
 
-<!-- Youtube video -->
+<!-- Participation Policy -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
+      <h2 class="title is-3 has-text-centered">Participation Policy</h2>
+      <ul>
+        <li><strong>Allowed User Interaction:</strong> Any method are allowed; We will divide method into two categories, one with external data, one without external data. We give rank within categories.</li>
+        <li><strong>Usage of Training Data:</strong> We will provide training data on certain domains. External data are allowed but are required to be reported for dividing category.</li>
+        <li><strong>Participation Policy for Members of The Organizers' Institutes:</strong> restriction: members with prior access to the data are not allowed to participate. Collaborators within the last two years, even without access, are not considered getting reward.</li>
+        <li><strong>Award Policy:</strong> We will name two winners for both categories. Certificates. We are actively working to finding sponsors for prizes.</li>
+        <li><strong>Result of Announcement:</strong> Participants need to agree with the publication of their methods and results. We will make all methods that officially participated.</li>
+        <li><strong>Publication Policy:</strong> Participants need to agree with the publication of their methods and results. We will make all methods that officially participated.</li>
+      </ul>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+<!-- End participation policy -->
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
+<!-- Submission Method -->
+<section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
+      <h2 class="title is-3 has-text-centered">Submission Method</h2>
+      <ul>
+        <li><strong>Result Submission:</strong> We'll use docker container for the result submission and evaluation. Submission instructions will be provided in the evaluation code. The results will be sent to the participate team via email.</li>
+        <li><strong>Evaluate Algorithms before Submitting:</strong> We will provide validation set on one domain and the test set will remain unpublished until the end of the challenge. </li>
+      </ul>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
+<!-- End submission method -->
 
 
 
