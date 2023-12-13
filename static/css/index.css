@@ -134,4 +134,13 @@ body {
 }
 
 
+#logo {
+  width: 250px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  /* Add any other styles you want for the logo */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 
