@@ -143,4 +143,26 @@ body {
   right: 0;
 }
 
+.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
 
+.image-container {
+  display: inline-block;
+  margin-right: 20px; /* Adjust the margin between images as needed */
+  text-align: center;
+}
+
+.image-container img {
+  width: 10px; /* Adjust the width of the images as needed */
+  height: auto;
+  padding: 5px;
+}
+
+.image-description {
+  font-size: 14px; /* Adjust the font size as needed */
+  margin: 5px 0 0; /* Adjust the margin as needed */
+  /* Add any other styles you want for the image descriptions */
+}
