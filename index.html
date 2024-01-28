@@ -47,17 +47,16 @@
     <!-- Your webpage header content goes here -->
     <img src="static\images\arcadeloge.png" alt="Your Image Alt Text" id="logo">
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">SegSTRONG-C</h1>
-            <h2 class="subtitle is-4">Segmenting Surgical Tools Robustly On Non-adversarial Generated Corruptions</h2>
-            <div class="is-size-5 publication-authors">
-                <span class="author-block">ARCADE Lab, Johns Hopkins University</span>
-            </div>  
-          </div>
+<section class="hero is-black" style="background-color: #000000;">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title has-text-white">SegSTRONG-C</h1>
+          <h2 class="subtitle is-4 has-text-white">Segmenting Surgical Tools Robustly On Non-adversarial Generated Corruptions</h2>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block has-text-white">ARCADE Lab, Johns Hopkins University</span>
+          </div>  
         </div>
       </div>
     </div>
@@ -66,9 +65,9 @@
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
         <div class="content has-text-justified">
           <p>
             Accurate segmentation of tools in robot-assisted surgery serves as a foundational aspect of machine perception, facilitating various downstream tasks, including augmented reality feedback. While existing feed-forward network-based methods exhibit excellent performance in the absence of corruption in test cases, the susceptibility to even minor corruptions can significantly impair the model's efficacy due to the inherent overfitting nature of such networks. This vulnerability becomes particularly consequential in surgical applications, where high-stakes decisions are commonplace. Prior efforts, such as benchmarking methods on Imagenet-C, have explored the robustness of models by introducing artificial noise to test images. The CaRTS approach introduces a novel pipeline designed to achieve robust segmentation of robot tools, validated against realistic corruptions. In our contribution, we expand the dataset to address the challenge of robust robot tool segmentation against non-adversarial factors. This expansion aims to encourage algorithms to exhibit resilience to unforeseen yet plausible complications that may arise during surgery, such as smoke, overbleeding, and artificial noise akin to ImageNet-C corruption. Successfully attaining non-adversarial robustness in this benchmark is paramount for the translation of research algorithms into real-world applications. It ensures that these algorithms can navigate and perform effectively in the face of unexpected but reasonable complexities encountered during surgical procedures.
@@ -85,7 +84,7 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3 has-text-centered">Participation Policy</h2>
+      <h2 class="title is-3">Participation Policy</h2>
       <ul>
         <li><strong>Allowed User Interaction:</strong> Any method are allowed; We will divide method into two categories, one with external data, one without external data. We give rank within categories.</li>
         <li><strong>Usage of Training Data:</strong> We will provide training data on certain domains. External data are allowed but are required to be reported for dividing category.</li>
@@ -101,7 +100,7 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3 has-text-centered">Submission Method</h2>
+      <h2 class="title is-3">Submission Method</h2>
       <ul>
         <li><strong>Result Submission:</strong> TBD </li>
       </ul>
@@ -115,7 +114,7 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3 has-text-centered">Challenge Schedule</h2>
+      <h2 class="title is-3">Challenge Schedule</h2>
       <ul>
         <li><strong>Release Date of the Training Cases and Validation:</strong> TBD</li>
         <li><strong>New Registrations Deadline:</strong> TBD </li>
@@ -132,39 +131,30 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3 has-text-centered">Code Availability</h2>
+      <h2 class="title is-3">Code Availability</h2>
       <ul>
-        <li><strong>Accessibility of the Participating Teams' Code: </strong> We will not making it available and are not requirement for teams </li> </li>
-        <li><strong>We provided the evaluation code for the validation set: </strong></li>
-      <ul>    
-      <!-- Github link -->
-      <section class="section hero is-light">
-        <div class="container is-max-desktop">
-          <div class="columns">
-              <span class="link-block">
-                <a href="https://github.com/arcadelab/SegStrongC" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
+        <li><strong>Accessibility of the Participating Teams' Code:</strong> We will not be making it available and it is not a requirement for teams.</li>
+        <li><strong>We provided the evaluation code for the validation set:</strong></li>
+      </ul>
+      <a href="https://github.com/arcadelab/SegStrongC" target="_blank" class="external-link button is-normal is-rounded is-dark">
+        <span class="icon">
+          <i class="fab fa-github"></i>
+        </span>
+        <span>Code</span>
+      </a>
+    </div>
+  </div>
 </section>
-<!-- Code Availability -->
+<!-- End Code Availability -->
 
 
-<div class="scroll-container">
+<!-- <div class="scroll-container">
   <img src="static/images/regular.png" alt="Cinque Terre">
   <img src="static/images/bg_change.png" alt="Forest">
   <img src="static/images/blood.png" alt="Northern Lights">
   <img src="static/images/low_brightness.png" alt="Mountains">
   <img src="static/images/smoke.png" alt="Mountains">
-</div>
+</div> -->
 
 <!-- Image carousel -->
 <section class="hero is-small">
@@ -217,7 +207,7 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3 has-text-centered">Training and Test Case Characteristics</h2>
+      <h2 class="title is-3">Training and Test Case Characteristics</h2>
       <ul>
         <li><strong>Total Number of Training:</strong> 11920 cases for training, 3600 cases for validation and 9000 cases for testing </li>
         <li><strong>Important Characteristics: </strong> We provide 2 domains - regular domain and background change domain for training and validation set. We will test on all five domains - regular, background change, low brightness, blood, and smoke domain. </li>
@@ -231,10 +221,8 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3 has-text-centered">Data Download</h2>
-        <div class="has-text-centered">
-            <a href="https://example.com/dataset" style="color: #007bff;">Please download data from here</a>
-        </div>
+      <h2 class="title is-3">Data Download</h2>
+        <a href="https://example.com/dataset" style="color: #007bff;">Please download data from here</a>
     </div>
   </div>
 </section>
@@ -244,30 +232,18 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3 has-text-centered">Metrics and Ranking Methods</h2>
+      <h2 class="title is-3">Metrics and Ranking Methods</h2>
       <ul>
         <li><strong>Metrics: </strong>Mean Dice Similarity Coefficient (DSC) for robot tool for multiple corruptions - low brightness, smoke and blood.</li>
         <li><strong>Performance Rank: </strong> We rank algorithms with total points summed up over 4 test domains - ImageNet-C corruption, bleeding, smoke, and low brightness. Points are given by the rank for each test domain -  rank from 1 to 5 get points 5 - 1. Rank for each domain is based on the segmentation metric -  DICE  Score. </li>
         <li><strong>Submission with Missing Results: </strong>e treat the score of the missing results as zero. </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- Metrics -->
-
-<!-- Ranking Methods -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3 has-text-centered">Ranking Methods</h2>
-      <ul>
         <li><strong>Performance Rank:</strong> We rank algorithms with total points summed up over 4 test domains - ImageNet-C corruption, bleeding, smoke, and low brightness. Points are given by the rank for each test domain -  rank from 1 to 5 get points 5 - 1. Rank for each domain is based on the segmentation metric -  DICE  Score. </li>
         <li><strong>Submission with Missing Results: </strong>e treat the score of the missing results as zero. </li>
       </ul>
     </div>
   </div>
 </section>
-<!-- End Training and test case characteristics -->
+<!-- Metrics -->
 
 <footer class="footer">
   <div class="container">
@@ -289,11 +265,9 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-4 has-text-centered">Contact Person</h2>
-      <p>
-        <p class="has-text-centered">
+      <h2 class="title is-4">Contact Person</h2>
+        <p>
           Hao Ding, hding15@jhu.edu; Mathias Unberath, unberath@jhu.edu.
-        </p>
         </div>
       </div>
     </div>
