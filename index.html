@@ -45,7 +45,9 @@
 </head>
 <body>
     <!-- Your webpage header content goes here -->
-    <img src="static\images\arcadelogo.png" alt="Your Image Alt Text" id="logo" class="header-image" width="100" height="100">
+    <a href="https://arcade.cs.jhu.edu">
+      <img src="static\images\arcadelogo.png" alt="Your Image Alt Text" id="logo" class="header-image" width="100" height="100">
+    </a>
 
 <section class="hero is-black" style="background-image: url(static/images/background.jpeg); background-size: cover; background-position: center;">
   <div class="hero-body">
@@ -56,105 +58,80 @@
           <h2 class="subtitle is-4 has-text-white">Segmenting Surgical Tools Robustly On Non-adversarial Generated Corruptions</h2>
           <div class="is-size-5 publication-authors">
             <span class="author-block has-text-white">ARCADE Lab, Johns Hopkins University</span>
-          </div>  
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        <div class="content has-text-justified">
-          <p>
-            Accurate segmentation of tools in robot-assisted surgery serves as a foundational aspect of machine perception, facilitating various downstream tasks, including augmented reality feedback. While existing feed-forward network-based methods exhibit excellent performance in the absence of corruption in test cases, the susceptibility to even minor corruptions can significantly impair the model's efficacy due to the inherent overfitting nature of such networks. This vulnerability becomes particularly consequential in surgical applications, where high-stakes decisions are commonplace. Prior efforts, such as benchmarking methods on Imagenet-C, have explored the robustness of models by introducing artificial noise to test images. The CaRTS approach introduces a novel pipeline designed to achieve robust segmentation of robot tools, validated against realistic corruptions. In our contribution, we expand the dataset to address the challenge of robust robot tool segmentation against non-adversarial factors. This expansion aims to encourage algorithms to exhibit resilience to unforeseen yet plausible complications that may arise during surgery, such as smoke, overbleeding, and artificial noise akin to ImageNet-C corruption. Successfully attaining non-adversarial robustness in this benchmark is paramount for the translation of research algorithms into real-world applications. It ensures that these algorithms can navigate and perform effectively in the face of unexpected but reasonable complexities encountered during surgical procedures.
-          </p>
-          <p><strong>Keywords: Non-adversarial Robustness, Surgical Tool Segmentation, Robotics Surgery, Minimally Invasive Surgery, EndoVis</strong></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-<!-- Participation Policy -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Participation Policy</h2>
-      <ul>
-        <li><strong>Allowed User Interaction:</strong> Any method are allowed; We will divide method into two categories, one with external data, one without external data. We give rank within categories.</li>
-        <li><strong>Usage of Training Data:</strong> We will provide training data on certain domains. External data are allowed but are required to be reported for dividing category.</li>
-        <li><strong>Award Policy:</strong> We will name two winners for both categories. Certificates. We are actively working to find sponsors for prizes. </li>
-        <li><strong>Publication Policy:</strong> (1) All members of the participating team are qualified as authors. (2) They are allowed to publish their own results separately but need to cite the challenge. (3) Embargo time:  after the initial write-up of the challenge is on arxiv.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- End participation policy -->
-
-<!-- Submission Method -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Submission Method</h2>
-      <ul>
-        <li><strong>Result Submission:</strong> We'll use docker container for the result submission and evaluation. Submission instructions will be provided in the evaluation code. the results will be sent to the participating team via email </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- End submission method -->
+          </div>
+          <div class="publication-links">
+            <!-- registration form -->
+            <span class="link-block">
+             <a href="https://forms.gle/hVrNjpAisSTSuKzv6" target="_blank"
+               class="external-link button is-normal is-rounded is-dark">
+               <span class="icon">
+                 <i class="fas fa-file-pdf"></i>
+               </span>
+               <span>Register and Submission</span>
+             </a>
+           </span>
 
 
-<!-- Challenge Schedule -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Challenge Schedule</h2>
-      <ul>
-        <li><strong>Release Date of the Training Cases and Validation:</strong> 1st May 2024</li>
-        <li><strong>New Registrations Deadline:</strong> 23th August 2024 </li>
-        <li><strong>Submission deadline:</strong> 30th August 2024 </li>
-        <li><strong>Methodology Reports Due: </strong>  27th September 2024 </li>
-        <li><strong>Winners announced: </strong>  On challenge day at MICCAI 2024  </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- End Challenge Schedule -->
+           <!-- Github link -->
+           <span class="link-block">
+             <a href="https://github.com/hding2455/CaRTS" target="_blank"
+             class="external-link button is-normal is-rounded is-dark">
+             <span class="icon">
+               <i class="fab fa-github"></i>
+             </span>
+             <span>Code</span>
+           </a>
+         </span>
 
-<!-- Code Availability -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Code Availability</h2>
-      <ul>
-        <li><strong>Accessibility of the Participating Teams' Code:</strong> We will not be making it available and it is not a requirement for teams.</li>
-        <li><strong>We provided the evaluation code for the validation set:</strong></li>
-      </ul>
-      <a href="https://github.com/arcadelab/SegStrongC" target="_blank" class="external-link button is-normal is-rounded is-dark">
-        <span class="icon">
-          <i class="fab fa-github"></i>
+         <!-- Annotation Protocol -->
+         <span class="link-block">
+          <a href="https://drive.google.com/file/d/1bnqsvCGWbC4r-Mc85-FpTYFI4eLqYelk/view?usp=sharing" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="fas fa-file-pdf"></i>
+            </span>
+            <span>Annotation Protocol</span>
+          </a>
         </span>
-        <span>Code</span>
-      </a>
+
+        <!-- Description of Challenge -->
+        <span class="link-block">
+          <a href="https://drive.google.com/file/d/1t_Wx3BlArSE5TUYyQkvIl5z14PESaXeq/view?usp=sharing" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="fas fa-file-pdf"></i>
+            </span>
+            <span>Description of Challenge</span>
+          </a>
+        </span>
+
+        <!-- Instructions for Code Base and Docker Submission -->
+        <span class="link-block">
+          <a href="https://docs.google.com/document/d/1Xq8CQXfJ2DiR18kfwiEL2h3YEcDAxKequnyJo-uTlYI/edit?usp=sharing" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="fas fa-file-pdf"></i>
+            </span>
+            <span>Instructions for Code Base and Docker Submission</span>
+          </a>
+        </span>
+
+         <!-- Dataset -->
+
+
+           <span class="link-block">
+               <a href="https://huggingface.co/datasets/Eliahu/LoWRA-Bench" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                   <span class="icon" style="vertical-align: middle; font-size: 20px;">&#129303;</span>
+                   <span style="vertical-align: middle;">Dataset</span>
+               </a>
+           </span>    
+     </div>  
+        </div>
+      </div>
     </div>
   </div>
 </section>
-<!-- End Code Availability -->
-
-
-<!-- <div class="scroll-container">
-  <img src="static/images/regular.png" alt="Cinque Terre">
-  <img src="static/images/bg_change.png" alt="Forest">
-  <img src="static/images/blood.png" alt="Northern Lights">
-  <img src="static/images/low_brightness.png" alt="Mountains">
-  <img src="static/images/smoke.png" alt="Mountains">
-</div> -->
 
 <!-- Image carousel -->
 <section class="hero is-small is-light">
@@ -202,33 +179,151 @@
 </section>
 <!-- End image carousel -->
 
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="content has-text-justified">
+	<h2 class="title is-3">Challenge Description</h2>
+          <p>
+	  	Accurate segmentation of tools in robot-assisted surgery is a foundational aspect of machine perception, facilitating various downstream tasks, including augmented reality feedback. While existing feed-forward network-based methods exhibit excellent performance in the absence of corruption in test cases, the susceptibility to even minor corruptions can significantly impair the model's performance due to the inherent overfitting nature of such networks. This vulnerability becomes particularly consequential in surgical applications, where high-stakes decisions are commonplace. Prior efforts, such as benchmarking methods on ImageNet-C for image classification, have explored the robustness of models by introducing artificial noise to test images. The CaRTS approach introduces a novel pipeline designed to achieve robust segmentation of robot tools against realistic corruptions. To assess algorithm robustness against non-adversarial corruptions, we expand the dataset in CaRTS to address the challenge of robust robot tool segmentation against non-adversarial corruption. Our goal is to encourage algorithms to exhibit robustness to unforeseen yet plausible complications that may arise during surgery, such as smoke, over-bleeding, and low brightness. The training set comprises 14 mock endoscopic surgery sequences without corruption and corresponding binary segmentation masks where "1" represents robot tools and "0" represents tissue background. In the testing set, there are three sequences with non-adversarial corruptions (smoke, over-bleeding, and low brightness) and digital corruption (ImageNet-C). Additionally, three sequences with an alternative background serve as validation. Participants are challenged to train their algorithms solely on uncorrupted sequences while achieving high performance on corrupted ones for the binary robot tool segmentation task. Successfully achieving this non-adversarial robustness in this benchmark is paramount for the translation of research algorithms into real-world applications. It ensures that these algorithms can navigate and perform effectively in the face of unexpected but reasonable complexities encountered during surgical procedures.
+          </p>
+          <p><strong>Keywords: Non-adversarial Robustness, Surgical Tool Segmentation, Robotics Surgery, Minimally Invasive Surgery, EndoVis</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
 
-<!-- Training and test case characteristics -->
+<!-- Task -->
+
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Training and Test Case Characteristics</h2>
+      <h2 class="title is-3">Task Description</h2>
       <ul>
-        <li><strong>Total Number of Training:</strong> We have 6600 cases for training, 1800 cases for validation, and 2400 cases for testing. </li>
-        <li><strong>Important Characteristics: </strong> We provide 11 sequences of uncorrupted samples for the training, three sequences of uncorrupted samples along with alternative background corruption for validation, and two sequences with four kinds of corrupted samples (smoke, over-bleeding, low-brightness, and ImageNet-C) for the test. </li>
+        <li><strong>Task:</strong> Binary segmentation where "1" means tool, "0" means background.</li>
+        <li><strong>Input modality:</strong> Images collected via endoscope stereo cameras. They can also be treated as video sequences.</li>
+	<li><strong>Ground truth format:</strong>Binary mask for each sequence.</li>
       </ul>
     </div>
   </div>
 </section>
-<!-- End Training and test case characteristics -->
 
-<!-- Training and test case characteristics -->
+<!-- Data -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Data Download</h2>
+      <h2 class="title is-3">Data Description</h2>
       <ul>
-        <li>Link for downloading training / validation data will be sent to the registered email after approval for the registration.</li>
+        <li><strong>Total number of cases:</strong> We have 6600 cases for training, 3600 cases for validation, and 5400 cases for testing. </li>
+        <li><strong>Important characteristics: </strong> We provide 11 sequences of uncorrupted samples for the training, 3 sequences of uncorrupted samples along with alternative background corruption for validation, and two sequences with three kinds of corrupted samples (smoke, over-bleeding, and low-brightness) for the test. </li>
       </ul>
     </div>
   </div>
 </section>
-<!-- End Training and test case characteristics -->
+<!-- End of Data -->
+
+<!-- Evaluation -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Metrics and Ranking Methods</h2>
+      <ul>
+        <li><strong>Metrics: </strong>Dice Similarity Coefficient (DSC) and Normalized Surface Distance(NSD) averaged from different tolerances for the robot tool .</li>
+        <li><strong>Performance rank: </strong> We rank algorithms with total scores summed up over three test domains - bleeding, smoke, and low brightness. Points are given by the rank for each test domain. Rank from 1 to 5 and get points from 5 to 1 if there are in total of 5 participants. Each Domain will have two ranks based on the DSC and NSD metrics. </li>
+        <li><strong>Submission with missing results: </strong>We treat the score of the missing results as zero. </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- End of Evaluation -->
+
+<!-- Registration and Submission -->
+<!-- Register and Submission -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Register and Submission</h2>
+      <ul>
+        <li><strong>Register: </strong> </li>
+        <li>Please fill this <a href="https://forms.gle/hVrNjpAisSTSuKzv6" style="color: #007bff;">form</a> and sign <a href="https://www.dropbox.com/s/t2iimyrdg43qiio/EndoVis_Rules.pdf?dl=0" style="color: #007bff;">challenge rules document</a>. Please send the challenge rules document to hding15@jhu.edu to register for the challenge.</li>
+        <li>Password for downloading training / validation data will be sent to the registered email after approval for the registration.</li>
+	<li><strong>Result submission:</strong> </li>
+	<li>We'll use docker container for the result submission and evaluation. Submission instructions will be provided in the evaluation code. the results will be sent to the participating team via email. Please submit a sample docker at least <strong>one week</strong> before the submission dealine to make sure the docker is runnable </strong> </li>
+      </ul>
+      <!-- <a href="https://example.com/dataset" style="color: #007bff;">Please submit docker container through this link</a> -->
+    </div>
+  </div>
+</section>
+<!-- Register and Submission -->
+<!-- End of Resgistration and Submission -->
+
+<!-- Participation Policy -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Participation Policy</h2>
+      <ul>
+        <li><strong>Allowed user interaction:</strong> Any method are allowed; (No division anymore, any external data is allowed)</li>
+        <li><strong>Usage of training Data:</strong> We will provide training data on certain domains. External data are allowed</li>
+        <li><strong>Award policy:</strong> We will name one winner and two runner-ups. We have certificates for all three and cash prize for the winner sponsored by Intuitive Inc.  </li>
+        <li><strong>Publication policy:</strong> (1) All members of the participating team are qualified as authors. (2) They are allowed to publish their own results separately but need to cite the challenge. (3) Embargo time:  after the initial write-up of the challenge is on arxiv.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End participation policy -->
+
+<!-- Challenge Schedule -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Challenge Schedule</h2>
+      <ul>
+        <li><strong>Release date of the training and validation cases:</strong> 1st May 2024</li>
+        <li><strong>New registrations deadline:</strong> 23th August 2024 </li>
+        <li><strong>Submission deadline:</strong> 30th August 2024 </li>
+        <li><strong>Methodology reports due: </strong>  27th September 2024 </li>
+        <li><strong>Winners announced: </strong>  On challenge day at MICCAI 2024  </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End Challenge Schedule -->
+
+<!-- <div class="scroll-container">
+  <img src="static/images/regular.png" alt="Cinque Terre">
+  <img src="static/images/bg_change.png" alt="Forest">
+  <img src="static/images/blood.png" alt="Northern Lights">
+  <img src="static/images/low_brightness.png" alt="Mountains">
+  <img src="static/images/smoke.png" alt="Mountains">
+</div> -->
+
+
+
+<!-- Code Availability -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Code Availability</h2>
+      <ul>
+        <li><strong>Accessibility of the participating teams' code:</strong> We will not be making it available and it is not a requirement for teams.</li>
+        <li><strong>We provided the evaluation code for the validation set:</strong></li>
+      </ul>
+      <a href="https://github.com/hding2455/CaRTS" target="_blank" class="external-link button is-normal is-rounded is-dark">
+        <span class="icon">
+          <i class="fab fa-github"></i>
+        </span>
+        <span>Code</span>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- End Code Availability -->
 
 <!-- Annotation Protocol -->
 <section class="hero is-small is-light">
@@ -243,37 +338,6 @@
 </section>
 <!-- Annotation Protocol -->
 
-<!-- Metrics -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Metrics and Ranking Methods</h2>
-      <ul>
-        <li><strong>Metrics: </strong>Dice Similarity Coefficient (DSC) and Normalized Surface Distance(NDS) averaged from different tolerances for the robot tool .</li>
-        <li><strong>Performance Rank: </strong> We rank algorithms with total scores summed up over 4 test domains - ImageNet-C corruption, bleeding, smoke, and low brightness. Points are given by the rank for each test domain. Rank from 1 to 5 and get points from 5 to 1 if there are in total of 5 participants. Each Domain will have two ranks based on the DSC and NDS metrics. </li>
-        <li><strong>Submission with Missing Results: </strong>We treat the score of the missing results as zero. </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- Metrics -->
-
-<!-- Register and Submission -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Register and Submission</h2>
-      <ul>
-        <li><strong>Register: </strong> </li>
-        <li>Please sign the <a href="https://www.dropbox.com/s/t2iimyrdg43qiio/EndoVis_Rules.pdf?dl=0" style="color: #007bff;">challenge rules document</a> and send it to hding15@jhu.edu to register for the challenge.</li>
-        <li><strong>Submission: </strong> </li>
-      </ul>
-      <a href="https://example.com/dataset" style="color: #007bff;">Please submit docker container through this link</a>
-    </div>
-  </div>
-</section>
-<!-- Register and Submission -->
-
 <!-- Structured Description of Challenge Design -->
 <section class="hero is-small is-light">
   <div class="hero-body">
@@ -287,17 +351,42 @@
 </section>
 <!-- Structured Description of Challenge Design -->
 
+<!-- Structured Description of Challenge Design -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Instructions for Code Base and Docker Submission</h2>
+      <ul>
+        <li><a href="https://docs.google.com/document/d/1Xq8CQXfJ2DiR18kfwiEL2h3YEcDAxKequnyJo-uTlYI/edit?usp=sharing" style="color: #007bff;">User Instructions</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- Structured Description of Challenge Design -->
+
 <!-- Contact Person -->
 <section class="hero is-small" style="background-color: #000000;">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-4 has-text-white">Contact Person</h2>
+    <div class="container" style="display: flex; justify-content: space-between;">
+      <!-- Contact Person Section -->
+      <div>
+        <h2 class="title is-3 has-text-white">Contact Person</h2>
         <p class="has-text-white">
-          Hao Ding, hding15@jhu.edu; Mathias Unberath, unberath@jhu.edu.
+          Organizer: Hao Ding, hding15@jhu.edu; Mathias Unberath, unberath@jhu.edu
+        </p>
+        <p class="has-text-white">
+          Sponsor: Cong Gao, Cong.Gao@intusurg.com
+        </p>
+      </div>
+      <!-- Supported by Section -->
+      <div>
+        <h2 class="title is-3 has-text-white">Supported by</h2>
+        <div class="column">
+          <a href="https://www.intuitive.com/en-us">
+            <img src="static/images/logoall2.png" alt="Sponsor 1" class="sponsor-image">
+          </a>
         </div>
       </div>
-    </div>
-    </p>
     </div>
   </div>
 </section>
